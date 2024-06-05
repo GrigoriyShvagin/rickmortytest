@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-black: rgb(39, 43, 51);
+    --bg-black-card: rgb(60, 62, 68);
+  }
+  .bg-black_main {
+    background: var(--bg-black);
+  }
+  .bg-black_card {
+    background: var(--bg-black-card);
+  }
+}
